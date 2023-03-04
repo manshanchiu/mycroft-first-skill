@@ -9,7 +9,7 @@ class RoyFirstSkill(MycroftSkill):
     def handle_skill_first_roy(self, message):
         self.speak_dialog('skill.first.roy')
     
-    @intent_file_handler('is.there.any.good.intent')
+    @intent_handler('is.there.any.goods.intent')
     def handle_is_there_any_goods(self,message):
         category_label = message.data.get('category')
         str = 'yes i find ' + category_label + ' in front of you'
