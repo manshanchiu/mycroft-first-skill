@@ -32,8 +32,6 @@ def getColorNameFromRGB(rgb_tuple, rgb_values, names):
     kdt_db = KDTree(rgb_values)
     _, index = kdt_db.query(rgb_tuple)
     return names[index]
-
-
 def extractInfo(response, responseKey, resNum, res, resKey):
     try:
         extractList = response[responseKey]

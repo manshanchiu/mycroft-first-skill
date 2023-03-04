@@ -276,7 +276,6 @@ class RoyFirstSkill(MycroftSkill):
         else:
             self.speak('I cannot understand what you are saying')
 
-
     def handle_ask_item_detail(self, detail, detail_str):
         if detail_str == '':
             self.speak_dialog(
