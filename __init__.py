@@ -1,4 +1,4 @@
-from mycroft import MycroftSkill, intent_file_handler, intent_handler, IntentBuilder
+from mycroft import MycroftSkill, intent_file_handler, intent_handler
 
 
 class RoyFirstSkill(MycroftSkill):
